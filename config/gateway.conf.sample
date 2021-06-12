@@ -1,0 +1,41 @@
+#################################################
+# Sample configuration file for connecting to   #
+# your Tesla Gateway locally.                   #
+#                                               #
+# Create a copy of this file named gateway.conf #
+# and set any options below for your system.    #
+#################################################
+
+# -- Network interface --
+# You may want to use a dedicated network
+# interface to connect to your Gateway.
+#  eth0 - if using a wired connection.
+# wlan0 - if using a wireless connection.
+# wlan1 - if using a USB wireless adapter.
+interface=wlan0
+
+# -- Gateway IP address --
+ip=192.168.91.1
+
+# -- Gateway Wi-Fi network --
+# Only uncomment the lines below if using a
+# wireless connection.
+# The SSID will have the following format:
+# TEG-XXX (where XXX are the last 3 characters of
+# the product serial number).
+# The pre-shared key is your Gateway serial
+# number found on the bottom of the home screen
+# in your Tesla app.
+# ssid=SSID
+# psk=SHARED_KEY
+
+# -- Login credentials --
+# The username does not typically need to be
+# changed.
+email=EMAIL_ADDRESS
+pass=PASSWORD
+username=customer
+
+# -- Language
+# The language the client is able to understand.
+lang=en-US,en

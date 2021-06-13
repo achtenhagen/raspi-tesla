@@ -3,3 +3,7 @@
 
 # Python
 .venv
+
+# Other files
+.DS_Store
+cookie.txt

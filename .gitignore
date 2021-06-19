@@ -1,2 +1,5 @@
 # Configuration files
 *.toml
+
+# Python
+.venv

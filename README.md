@@ -21,7 +21,7 @@ Add OpenSSL to your PATH (if using ZSH):
 $ echo 'export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"' >> ~/.zshrc
 ```
 
-Export the following variables to compile the pycurl package:
+Export the following variables to compile the pycurl package in the next section:
 ```
 $ export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
 $ export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"

@@ -18,6 +18,9 @@ migration:
     - platform: linux
       create_revision: 2cde203b9c7a825cc0f0faa0a535b8314c106cba
       base_revision: 2cde203b9c7a825cc0f0faa0a535b8314c106cba
+    - platform: macos
+      create_revision: 2cde203b9c7a825cc0f0faa0a535b8314c106cba
+      base_revision: 2cde203b9c7a825cc0f0faa0a535b8314c106cba
 
   # User provided section
 
